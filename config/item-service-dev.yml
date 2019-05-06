@@ -7,10 +7,10 @@ spring:
     inetutils:
       ignored-interfaces:
       - VM.*
-      preferred-networks:
-      - 176.212.33.15
-server:
-  port: 8001
+      #preferred-networks:
+      #- 176.212.33.15
+#server:
+  #port: 8001
 eureka:
   client:
     service-url:
